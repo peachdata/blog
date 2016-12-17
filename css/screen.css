@@ -97,7 +97,7 @@ h3 {
   font-size: large;
   line-height: 1.167;
   margin: 1.556em 0;
-  text-align: center;
+  text-align: left;
 }
 
 /*
@@ -240,15 +240,15 @@ ul.posts {
     margin-left: 1.35em;
   }
 
-/*  #post code {
+  #post code {
     border: 1px solid #ddd;
     background-color: #eef;
     font-size: 85%;
     padding: 0 .2em;
   }
-    #post pre code {
+  #post pre code {
       border: none;
-    } */
+  } 
     
     /* code blocks */
 
