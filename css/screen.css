@@ -5,42 +5,6 @@
 /*****************************************************************************/
 
 /* Global Reset */
-@font-face {
-  font-family: 'Essays 1743';
-  src: url('/f/essays1743-webfont.eot');
-  src: local('Essays 1743'), url('/f/essays1743-webfont.woff') format('woff'), url('/f/essays1743-webfont.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'Essays 1743';
-  src: url('/f/essays1743-italic-webfont.eot');
-  src: local('Essays 1743'), url('/f/essays1743-italic-webfont.woff') format('woff'), url('/f/essays1743-italic-webfont.ttf') format('truetype');
-  font-weight: normal;
-  font-style: italic;
-}
-@font-face {
-  font-family: 'Linux Libertine';
-  src: url('/f/linlibertine_re-4.7.5-webfont.eot');
-  src: local('Linux Libertine'), url('/f/linlibertine_re-4.7.5-webfont.woff') format('woff'), url('/f/linlibertine_re-4.7.5-webfont.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'Linux Libertine';
-  src: url('/f/linlibertine_bd-4.1.5-webfont.eot');
-  src: local('Linux Libertine'), url('/f/linlibertine_bd-4.1.5-webfont.woff') format('woff'), url('/f/linlibertine_bd-4.1.5-webfont.ttf') format('truetype');
-  font-weight: bold;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'Linux Libertine';
-  src: url('/f/linlibertine_it-4.2.6-webfont.eot');
-  src: local('Linux Libertine'), url('/f/linlibertine_it-4.2.6-webfont.woff') format('woff'), url('/f/linlibertine_it-4.2.6-webfont.ttf') format('truetype');
-  font-weight: normal;
-  font-style: italic;
-}
-
 
 * {
   margin: 0;
@@ -51,75 +15,41 @@ html, body {
   height: 100%;
 }
 
-
 body {
   background-color: white;
-  font: large "Linux Libertine", Palatino, "Palatino Linotype", "Book Antiqua", Georgia, "Times New Roman", serif;
+  font: 13.34px helvetica, arial, clean, sans-serif;
   *font-size: small;
   text-align: center;
 }
 
-pre, kbd, samp, code, var {
-  font: medium/1.25 "Liberation Mono", "Bitstream Vera Sans Mono", "DejaVu Sans Mono", monospace;
-  word-spacing: 0;
-  letter-spacing: 0;
-}
-
-/* headers */
-
-h1, h2, h3, h4, caption, thead th {
-  font-family: "Essays 1743", Palatino, "Palatino Linotype", "Book Antiqua", Georgia, "Times New Roman", serif;
-  font-weight: normal;
-  text-transform: uppercase;
-  text-shadow: 0 0 1px #667;
-}
-
-h1 {
-  font-size: 210.7%;
-  line-height: 1.1;
-  text-align: center;
-  width: 100%;
-  margin: 1.49em 0;
-}
-h2 {
-  font-size: 180%;
-  line-height: 1.3125;
-  margin: 1.167em 0;
-  text-align: center;
-  clear: both;
-}
-h3 {
-  font-size: large;
-  line-height: 1.167;
-  margin: 1.556em 0;
-  text-align: center;
-}
-
-/*
 h1, h2, h3, h4, h5, h6 {
   font-size: 100%;
 }
+
 h1 {
   margin-bottom: 1em;
 }
+
 p {
   margin: 1em 0;
 }
+
 a {
   color: #00a;
 }
+
 a:hover {
   color: black;
 }
+
 a:visited {
   color: #a0a;
 }
+
 table {
   font-size: inherit;
   font: 100%;
 }
-*/
-
 
 /*****************************************************************************/
 /*
@@ -151,7 +81,7 @@ ul.posts {
 .site {
   font-size: 110%;
   text-align: justify;
-  width: 40em;
+  width: 42em;
   margin: 3em auto 2em auto;
   line-height: 1.5em;
 }
@@ -250,17 +180,6 @@ ul.posts {
     max-width: 42em;
     padding: 1em 0;
   }
-
-
-/* overrides */
-
-li ol, .q, .v span {
-  margin: 0;
-}
-code, var, samp {
-  line-height:inherit !important;
-}
-
 
   /* terminal */
 
