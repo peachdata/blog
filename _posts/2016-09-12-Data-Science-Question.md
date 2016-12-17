@@ -4,9 +4,11 @@ author: "林荟"
 date: "Sep 12, 2016"
 ---
   
-#数据科学可以解决什么问题？
-  
- 
+{{ page.title }}
+================
+
+<p class="meta">Sep 12, 2016 - 林荟</p>
+
  <p align="center">
    <img src="http://linhui.org/images/Jokes/jokeBayes.png"/>
  </p>
