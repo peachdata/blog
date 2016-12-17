@@ -97,7 +97,7 @@ h3 {
   font-size: large;
   line-height: 1.167;
   margin: 1.556em 0;
-  text-align: left;
+  text-align: center;
 }
 
 /*
@@ -246,29 +246,16 @@ ul.posts {
     font-size: 85%;
     padding: 0 .2em;
   }
-  #post pre code {
-      border: none;
-  } 
-    
-    /* code blocks */
 
-pre {
-  padding-left: 3.5em;
-  white-space: pre; /* CSS2 */
-  white-space: pre-wrap; /* CSS 2.1 */
-  word-wrap: break-word; /* IE */
-}
-pre.ib {
-  padding: 0;
-}
-mark {
-  display: inline-block;
-  background: #ff8;
-  border: 1px dotted #888;
-}
-.p {
-  color: #667;
-}
+    #post pre code {
+      border: none;
+    }
+
+  #post img {
+    max-width: 42em;
+    padding: 1em 0;
+  }
+
 
 /* overrides */
 
